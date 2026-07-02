@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focus Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="navbar">
+    <div class="logo">Focus</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </div>
+
+
+  <div class="page-header">
+    <h2>Event Registration</h2>
+    <p>Fill in your details to register for an event</p>
+  </div>
+
+
+  <div class="content-box">
+    <form action="success.html" method="post">
+
+      <label class="form-label">Participant Name</label>
+      <input type="text" placeholder="Enter your full name">
+
+      <label class="form-label">Email Address</label>
+      <input type="email" placeholder="Enter your email">
+
+      <label class="form-label">Mobile Number</label>
+      <input type="tel" placeholder="Enter your mobile number">
+
+      <label class="form-label">Gender</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </div>
+
+      <label class="form-label">College Name</label>
+      <input type="text" placeholder="Enter your college name">
+
+      <label class="form-label">Select Event</label>
+      <select>
+        <option value="">-- Select Event --</option>
+        <option> Coding Competition</option>
+        <option> Web Development Workshop</option>
+        <option> Quiz Competition</option>
+        <option> Cultural Fest</option>
+      </select>
+
+      <label class="form-label">Participation Mode</label>
+      <div class="radio-group">
+        <label><input type="radio" name="mode" value="online"> Online</label>
+        <label><input type="radio" name="mode" value="offline"> Offline</label>
+      </div>
+
+      <label class="form-label">Comments</label>
+      <textarea placeholder="Write any comments or questions..."></textarea>
+
+      <div class="form-buttons">
+        <input type="submit" value="Submit Registration" class="btn-submit">
+        <input type="reset" value="Reset Form" class="btn-reset">
+      </div>
+
+    </form>
+  </div>
+
+  <div class="footer">
+    &copy; 2026 <span>Focus</span> — All Rights Reserved
+  </div>
+
+</body>
+</html>
